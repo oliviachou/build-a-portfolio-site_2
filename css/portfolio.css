@@ -1,0 +1,56 @@
+body {
+    font-size: 1.5em;
+}
+
+.header {
+    color: aquamarine;
+}
+#name {
+    max-width: 40% ;
+    float: right;
+    margin-top: 5%;
+}
+
+
+/* Supporting */
+.supporting {
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align:center;
+}
+.supporting img {
+    height: 12%;
+    padding-left: 10%;
+  }
+.row {
+    margin-top: 5%;
+}
+.row,.h2 {
+    color: aquamarine;
+    margin-left: 30%;
+}
+.footer{
+    margin-left: 40%;
+}
+.footer,
+.footerImage {
+    width: 10%;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 720px) {
+.container {
+  width: 80%;
+ }
+}
+@media (min-width: 768px) {
+.container {
+   width: 75%;
+}
+.supporting, 
+.container,
+.design {
+     color: grey;
+ }
+}
